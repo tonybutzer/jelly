@@ -7,3 +7,6 @@ git:
 	git push
 
 
+jelly:
+	docker compose up -d
+
