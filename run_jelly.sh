@@ -9,7 +9,7 @@ docker run -d \
   -e COMPlus_EnableDiagnostics=0\
   -v /home/tony/work/jelly/jellyfin/config:/config \
   -v /home/tony/work/jelly/jellyfin/cache:/cache \
-  -v /mnt/plexLive/0_Music:/media/music:ro \
+  -v /home/tony/Music:/media/music:ro \
   --restart unless-stopped \
 docker.io/linuxserver/jellyfin:latest
 

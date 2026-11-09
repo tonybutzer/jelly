@@ -8,5 +8,10 @@ git:
 
 
 jelly:
-	docker compose up -d
+	#not docker compose up -d
+	./run_jelly.sh
 
+
+
+dirs:
+	mkdir -p ./jellyfin/config ./jellyfin/cache
