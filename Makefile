@@ -2,6 +2,7 @@ cat:
 	cat Makefile
 
 git:
+	cat ~/token*
 	git add .
 	git commit -m "jelly  work 2026 fall"
 	git push
